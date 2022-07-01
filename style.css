@@ -1,3 +1,22 @@
 body{
-    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container{
+  padding:40px;
+  border: 2px black solid;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.resultclass{
+  margin-bottom: 10px;
+}
+
+#chances{
+  margin-bottom: 10px;
 }
