@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background-image: url(./bgima.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-color: #fff;
+  height: 100vh;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+
+
+.input-area {
+  margin-bottom: 20px;
+}
+
+.task-area{
+  border:gray solid 1px;
+}
+
+.task-tabs div {
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  
+}
+
+#under-line {
+  height: 4px;
+  background-color: pink;
+  position: absolute;
+  left: 0;
+  width: 150px; 
+  padding:0px;
+  bottom: 0px;
+}
+
+.task-tabs{
+  position: relative;
+  display: flex;
+  border-bottom: solid gray 1px;
+}
+
+.task{
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-color{
+  background-color: lightgray;
+  width: 100%;
+}
+
+.task-done{
+  text-decoration: line-through;
+  background-color: lightgray;
+}
+
+.trash-button{
+  border: none;
+  background-color: #fff;
+}
+
+.checkButton {
+  border:none;
+  background-color: #fff;
+}
+.fa-check{
+  color:green;
+}
+
+.fa-trash{
+  color: red;
+}
+
+.task-tabs{
+  cursor: pointer;
+}
